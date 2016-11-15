@@ -1,39 +1,39 @@
 #!/bin/bash
 
-/bin/cat > /root/env.cfg <<EOF
-#/bin/bash
+# /bin/cat > /root/env.cfg <<EOF
+# /bin/bash
 
-export SS_PORT=$SS_PORT
-export SS_PASSWD=$SS_PASSWD
-export SS_METHOD=$SS_METHOD
-export ARU_ACCESS_TOKEN=$ARU_ACCESS_TOKEN
-export ARU_SECRET_TOKEN=$ARU_SECRET_TOKEN
-export ARU_CONTAINER_ID=$ARU_CONTAINER_ID
-export MAIL_FROM=$MAIL_FROM
-export MAIL_PWD=$MAIL_PWD
-export MAIL_SMTP=$MAIL_SMTP
-export MAIL_TO=$MAIL_TO
-
-
-EOF
+# export SS_PORT=$SS_PORT
+# export SS_PASSWD=$SS_PASSWD
+# export SS_METHOD=$SS_METHOD
+# export ARU_ACCESS_TOKEN=$ARU_ACCESS_TOKEN
+# export ARU_SECRET_TOKEN=$ARU_SECRET_TOKEN
+# export ARU_CONTAINER_ID=$ARU_CONTAINER_ID
+# export MAIL_FROM=$MAIL_FROM
+# export MAIL_PWD=$MAIL_PWD
+# export MAIL_SMTP=$MAIL_SMTP
+# export MAIL_TO=$MAIL_TO
 
 
-/bin/cat >> /etc/profile <<EOF
-#/bin/bash
-
-export SS_PORT=$SS_PORT
-export SS_PASSWD=$SS_PASSWD
-export SS_METHOD=$SS_METHOD
-export ARU_ACCESS_TOKEN=$ARU_ACCESS_TOKEN
-export ARU_SECRET_TOKEN=$ARU_SECRET_TOKEN
-export ARU_CONTAINER_ID=$ARU_CONTAINER_ID
-export MAIL_FROM=$MAIL_FROM
-export MAIL_PWD=$MAIL_PWD
-export MAIL_SMTP=$MAIL_SMTP
-export MAIL_TO=$MAIL_TO
+# EOF
 
 
-EOF
+# /bin/cat >> /etc/profile <<EOF
+# /bin/bash
+
+# export SS_PORT=$SS_PORT
+# export SS_PASSWD=$SS_PASSWD
+# export SS_METHOD=$SS_METHOD
+# export ARU_ACCESS_TOKEN=$ARU_ACCESS_TOKEN
+# export ARU_SECRET_TOKEN=$ARU_SECRET_TOKEN
+# export ARU_CONTAINER_ID=$ARU_CONTAINER_ID
+# export MAIL_FROM=$MAIL_FROM
+# export MAIL_PWD=$MAIL_PWD
+# export MAIL_SMTP=$MAIL_SMTP
+# export MAIL_TO=$MAIL_TO
+
+
+# EOF
 
 
 

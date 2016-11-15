@@ -1,6 +1,7 @@
 #!/bin/bash
 
 source /etc/profile
+source /root/env.cfg
 
 yum -y install python curl curl-devel
 # yum -y install httpd
