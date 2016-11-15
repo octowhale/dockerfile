@@ -45,7 +45,7 @@ def gen_ss_qrcode(f):
     print "service_password: %s " % service_password
     
     
-    uri = "%s:%s@%s:%s " % (service_method, service_password, service_host, service_port)
+    uri = "%s:%s@%s:%s" % (service_method, service_password, service_host, service_port)
 
     # print uri
     # print "uri: %s" % uri
