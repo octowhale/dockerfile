@@ -1,0 +1,13 @@
+export SS_PORT=9999
+export SS_PASSWD=YourPassWord
+export SS_METHOD=aes-256-cfb
+
+export ARU_ACCESS_TOKEN=arukas-access-token-api
+export ARU_SECRET_TOKEN=arukasSerectTokenasdfoaosjdfoasdofoasjdfoaisjdf
+export ARU_CONTAINER_ID=arukas-container-id
+
+export MAIL_FROM=your@email.com
+export MAIL_PWD=email_passowrd
+export MAIL_SMTP=smtp.email.com
+export MAIL_TO="user1@email.com:user2@mail.com"  # seperate by comon
+
