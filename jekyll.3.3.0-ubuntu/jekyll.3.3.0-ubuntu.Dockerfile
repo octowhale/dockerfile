@@ -6,12 +6,13 @@ MAINTAINER octowhale@github
 
 
 RUN apt-get -y update
-RUN apt-get -y install ruby ruby-dev ruby-ffi
+RUN apt-get -y install ruby2.3 ruby-dev2.3 ruby-ffi
 
-RUN gem sources --remove https://rubyRUN gems.org/ --add https://RUN gems.ruby-china.org/
+RUN gem sources --remove http://rubygems.org/
+RUN gem sources --remove https://rubygems.org/
+RUN gem sources --add https://gems.ruby-china.org/
 
 
-RUN apt-get -y install 
 RUN apt-get -y install gcc automake make
 RUN apt-get -y install zlib1g zlib1g-dev
 RUN apt-get -y install libxml2-dev libxslt-dev
